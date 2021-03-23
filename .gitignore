@@ -1,0 +1,14 @@
+# ignore everything (dirs, files, sub-dirs, sub-files)
+/*
+# but do not ignore the following in root dir
+!.gitignore
+!screenshots.pdf
+!readme.md
+!docker-compose.yml
+
+# do not ignore wp-content directory
+!wordpress/
+wordpress/*
+!wordpress/wp-content/
+
+
