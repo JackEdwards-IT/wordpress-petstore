@@ -43,6 +43,7 @@ if(!function_exists('homepage_update_settings')){
         register_setting( 'banner_fields', 'banner_image');
         register_setting( 'banner_fields', 'banner_text');
         register_setting( 'banner_fields', 'feature_text');
+        register_setting( 'banner_fields', 'num_prods');
     }
     add_action('admin_init', 'homepage_update_settings');
 }

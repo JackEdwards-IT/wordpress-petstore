@@ -33,6 +33,8 @@ $banner_txt = $wpdb->get_var("SELECT option_value FROM wp_options WHERE option_n
 
 // Get the category set for featured products
 $feature_category = $wpdb->get_var("SELECT option_value FROM wp_options WHERE option_name = 'feature_text'");	
+// Get the number of products to display set from plugin
+$num_products = $wpdb->get_var("SELECT option_value FROM wp_options WHERE option_name = 'num_prods'");
 
 // SQL Query - see production journal for more details
 $query = "SELECT wp_posts.id, posts.post_title, posts.post_excerpt, posts.guid, wp_posts.guid as image, postmeta.meta_value " 
@@ -45,7 +47,7 @@ $query = "SELECT wp_posts.id, posts.post_title, posts.post_excerpt, posts.guid, 
 		. "INNER JOIN wp_posts ON wp_postmeta.meta_value = wp_posts.id) "
 		. "WHERE wp_terms.name = '$feature_category' AND wp_postmeta.meta_key ='_thumbnail_id' AND postmeta.meta_key ='_price' AND postmeta2.meta_key = 'total_sales' "
 		. "ORDER BY cast(postmeta2.meta_value AS UNSIGNED) DESC "
-		. "LIMIT 3; ";
+		. "LIMIT $num_products; ";
 		
 
 // Use the WP built in DB method and pass in our query 
