@@ -5,6 +5,7 @@
 !screenshots.pdf
 !readme.md
 !docker-compose.yml
+!.wpress
 
 # do not ignore wp-content directory
 !wordpress/
