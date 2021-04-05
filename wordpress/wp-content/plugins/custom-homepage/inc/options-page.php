@@ -11,7 +11,7 @@
         
         <!-- Display form contents for changing the banner and banner text-->
         
-        <h2>Banner and Banner Text Settings</h2>
+        <h2>Banner Image and Banner Text Settings</h2>
         <p>If changing the banner please go to Media and copy the link from the image and paste below.</p><br>
         <!--The large image width was to handle widescreen displays. Probably not the best solution but it works for now -->
         <p>Please ensure banner image is 3500 pixels wide by 170 pixels tall.</p>
