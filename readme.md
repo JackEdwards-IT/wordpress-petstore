@@ -26,7 +26,7 @@ access at `http://localhost:8080`
 
 ### To install the site
 
-Install the plugin: All-In-One WP Migration
+Install the plugin: All-In-One WP Migration (must be older version 6.7)
 
 Update the .htaccess file to increase the maximum upload size so we can use the backup file. (.htaccess is located in the wordpress folder).
 
@@ -41,7 +41,7 @@ php_value max_input_time 300
 
 ```
 
-Now activate the plugin in the WP dashboard and import the backup.
+Now activate the plugin in the WP dashboard and import the backup (.wpress) located in `wp-content/ai1wm-backups`
 
 ### Login details
 
