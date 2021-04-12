@@ -1,7 +1,7 @@
 # Wordpress Petshop Demo
 
 Due to the nature of wordpress it doesn't make sense to put the entire codebase on github.
-I have added the wp-content folder so that code for themeing and custom plugins can be used. I have also included a pdf with some screenshots of the functionality TODO.
+I have added the wp-content folder so that code for themeing and custom plugins can be used. I have also included a pdf with some screenshots of the functionality and a brief overview. [Project Overview](Project-Overview.pdf)
 
 To see the site live please use this link: http://pet-shop-demo.onlinewebshop.net/ 
 
