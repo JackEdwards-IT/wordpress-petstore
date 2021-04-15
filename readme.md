@@ -1,11 +1,11 @@
 # Wordpress Petshop Demo
 
 Due to the nature of wordpress it doesn't make sense to put the entire codebase on github.
-I have added the wp-content folder so that code for themeing and custom plugins can be used. I have also included a pdf with some screenshots of the functionality and a brief overview. [Project Overview](https://docs.google.com/viewer?url=https://github.com/JackEdwards-IT/wordpress-petstore/raw/main/Project-Overview.pdf)
+I have added the wp-content folder so that code for theming and custom plugins can be used. I have also included a pdf with some screenshots of the functionality and a brief overview. [Project Overview](https://docs.google.com/viewer?url=https://github.com/JackEdwards-IT/wordpress-petstore/raw/main/Project-Overview.pdf)
 
 To see the site live please use this link: http://pet-shop-demo.onlinewebshop.net/ 
 
-Below is instructions on how to run localy with Docker and a backup image of the site.
+Below are instructions on how to run locally with Docker and a backup image of the site.
 
 ## How to run local dev with Docker
 
